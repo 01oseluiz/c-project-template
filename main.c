@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 #include <module.h>
+#include <console.h>
 
 int main(void) {
-	puts("Main():");
+	success("main", "A = %d", 10);
 	Module_print();
 	return 0;
 }

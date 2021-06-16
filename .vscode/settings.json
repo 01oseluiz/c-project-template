@@ -8,5 +8,6 @@
 		"-Werror",
 		"-Wall",
 		"-fms-extensions",
-	]
+	],
+	"cmake.configureOnOpen": true
 }
